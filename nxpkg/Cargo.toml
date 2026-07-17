@@ -1,0 +1,9 @@
+[package]
+name = "nxpkg"
+version.workspace = true
+edition.workspace = true
+description = "NXP package tool — create, extract, list, verify"
+
+[[bin]]
+name = "nxpkg"
+path = "src/main.rs"

@@ -1,0 +1,12 @@
+[package]
+name = "nxeinfo"
+version.workspace = true
+edition.workspace = true
+description = "NXE binary inspector — metadata, headers, sections"
+
+[[bin]]
+name = "nxeinfo"
+path = "src/main.rs"
+
+[dependencies]
+serde_json = "1"

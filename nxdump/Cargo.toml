@@ -1,0 +1,9 @@
+[package]
+name = "nxdump"
+version.workspace = true
+edition.workspace = true
+description = "Technical ELF/NXE/NEM dump tool"
+
+[[bin]]
+name = "nxdump"
+path = "src/main.rs"
